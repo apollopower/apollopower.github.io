@@ -6,6 +6,4 @@ layout: home
 permalink: /
 ---
 
-# Jonas Erthal's Website
-
 Aspiring amateur of many things.
