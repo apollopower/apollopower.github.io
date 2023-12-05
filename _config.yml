@@ -18,21 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jonas Blog
+title: Jonas Erthal
 email: erthaljonas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the blog and site for Jonas Erthal.
+  This blog is proudly served with Jekyll and Ruby :)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: apollopower
 github_username:  apollopower
 
 # Build settings
-theme: jekyll-theme-console
+#theme: jekyll-theme-console
+theme: minima
 
 header_pages:
   - index.markdown
   - about.markdown
+
+footer: 'Find me also on <a href="https://www.linkedin.com/in/jonaserthal/">LinkedIn</a>'
 
 
 plugins:
