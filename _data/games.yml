@@ -1,0 +1,13 @@
+- title: "Game One"
+  date_released: "2024-01-01"
+  description: "A brief description of Game One. It's a thrilling adventure set in a post-apocalyptic world."
+  link: "http://example.com/game-one"
+  devlog_link: "http://example.com/game-one/devlog"
+  image: "_site\res\about_brickell.jpg"
+
+- title: "Game Two"
+  date_released: "2023-12-01"
+  description: "Game Two offers a unique puzzle experience with endless possibilities. Designed to challenge your mind."
+  link: "http://example.com/game-two"
+  devlog_link: "http://example.com/game-two/devlog"
+  image: "_site\res\about_brickell.jpg"
