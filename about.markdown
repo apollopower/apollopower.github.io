@@ -8,7 +8,7 @@ I'm a computer programmer doing fun thing with **games**, **computer graphics**,
 
 My main interest is in understanding systems deeply to their full extent. The miracle of computing is that we have the ability to go from pixels to silicon in our quest to solve problems and create fresh, new ideas.
 
-## The Early Years
+## Early Years
 
 I'm a native son of Miami, Florida. I spent the majority of my time messing with computers, video games, and playing music. In high school, I was convinced that I would become a professional Jazz musician. When I realized I could continue enjoying music without committing to it professionaly, I made the quick pivot that many of the lost and wandering make; go to business school.
 
