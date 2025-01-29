@@ -26,7 +26,7 @@ After going our separate ways *[(my friends now run a successful marketing agenc
 
 As a freshly minted "developer", I had to go prove my worth in the industry. I did web consulting, worked on digitial ad agency projects, and even worked on machine learning research projects for __[vagus nerve stimulation](https://www.mayoclinic.org/tests-procedures/vagus-nerve-stimulation/about/pac-20384565)__.
 
-My first official big-time role was as a software engineer for JP Morgan's Energy Trading desk, where I sat on the trading floor across the traders, writing their software applications.
+My first big-time role was as a software engineer for JP Morgan's Energy Trading desk, where I sat on the trading floor across the traders, writing their software applications.
 
 I had fun, learned a lot, got stressed (a lot), and above all, did my time on Wall Street.
 
