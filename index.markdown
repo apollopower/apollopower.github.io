@@ -9,7 +9,7 @@ permalink: /
 
 I'm Jonas Erthal, a computer programmer and writer (in that order). 
 
-My work primarily focuses on data-oriented, machine-learning based applications. In recent years this has evolved into the advancement and research of reinforcement learning and large language models.
+My work primarily focuses on data-oriented, machine-learning based applications. In recent years this has evolved into the applications of reinforcement learning and large language models.
 
 I've worked previously at Microsoft in the exciting area of business process monitoring (data) and at JP Morgan for the Energy Trading Desk managing applications around risk (more data). I have also created several independent products, [one of which I have sold](https://www.cognisell.ai/).
 
