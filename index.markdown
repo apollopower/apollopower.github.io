@@ -1,32 +1,16 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
-title: Home
+title: Jonas Erthal
+description: Personal blog and portfolio of Jonas Erthal - Software Engineer, focusing on web development, system architecture, and game development.
 permalink: /
 ---
 
-## Games By Jonas (Apollopower)
+# Welcome
 
-***
+I'm Jonas, a software engineer passionate about building scalable applications, exploring new technologies, and occasionally creating games. Here you'll find my thoughts on software development, tech insights, and various projects I'm working on.
 
-# Corporate Dilemma
-#### _January 2022_
-
-You play as a simple office worker, who has little love for his job. However, things get strange as you approach the end of the day, and soon you find yourself trying to complete the most important task at your company!
-
-### [Game on Itch.io](https://apollopower.itch.io/corporate-dilemma)
-![Corporate Dilemma Screenshot](/res/games/corporatedilemma.png)
-
-***
-
-# Sokoban!
-#### _Febuary 2021_
-
-Do you enjoy pushing boxes? Do you enjoy puzzles? Then some good ole' fashion Sokoban box pushing seems to be a perfect fit for you! Can you organize our unnecessarily complex warehouse with boxes in their right places?
-
-### [Game on Itch.io](https://apollopower.itch.io/sokoban)
-![Sokoban!](/res/games/sokoban!.png)
-
-***
+## Recent Posts
+{% for post in site.posts limit:3 %}
+- ### [{{ post.title }}]({{ post.url }})
+  {{ post.excerpt | strip_html | truncatewords:30 }}
+{% endfor %}
