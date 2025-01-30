@@ -5,6 +5,8 @@ description: Personal blog and portfolio of Jonas Erthal - Software Engineer, fo
 permalink: /
 ---
 
+![Jonas Erthal - Profile Picture](res/JonasImage2.jpg){: .profile-pic }
+
 I'm Jonas Erthal, a computer programmer and writer (in that order). 
 
 My work primarily focuses on data-oriented, machine-learning based applications. I currently count much of my work as part of the LLM boom which has surfaced the last few years.

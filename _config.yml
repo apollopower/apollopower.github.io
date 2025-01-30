@@ -4,7 +4,7 @@ tagline: Computer Programmer
 author: Jonas Erthal
 email: erthaljonas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal blog of Jonas Erthal.
+  Aspiring amateur of many things.
 
 # Site URL settings
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,8 +34,6 @@ plugins:
 
 # Navigation
 header_pages:
-  - index.markdown
-  - about.markdown
   - blog.markdown
   - games.markdown
 
