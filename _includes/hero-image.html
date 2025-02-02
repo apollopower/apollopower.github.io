@@ -1,0 +1,6 @@
+<figure class="post-hero">
+  <img src="{{ include.url }}" alt="{{ include.alt }}" class="w-full">
+  {% if include.caption %}
+    <figcaption class="text-center text-gray-600 mt-2">{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

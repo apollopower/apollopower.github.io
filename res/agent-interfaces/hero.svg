@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8fafc"/>
+  
+  <!-- Grid lines -->
+  <path d="M0 200 H800 M400 0 V400" stroke="#e2e8f0" stroke-width="1"/>
+  <path d="M100 50 H700 M100 350 H700" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <!-- Central Interface Hub -->
+  <rect x="350" y="150" width="100" height="100" rx="10" fill="#3b82f6" opacity="0.9"/>
+  <text x="400" y="205" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Agent Interface</text>
+  
+  <!-- Agent Nodes -->
+  <circle cx="200" cy="100" r="40" fill="#10b981" opacity="0.8"/>
+  <text x="200" y="105" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent 1</text>
+  
+  <circle cx="600" cy="100" r="40" fill="#10b981" opacity="0.8"/>
+  <text x="600" y="105" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent 2</text>
+  
+  <circle cx="200" cy="300" r="40" fill="#10b981" opacity="0.8"/>
+  <text x="200" y="305" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent 3</text>
+  
+  <circle cx="600" cy="300" r="40" fill="#10b981" opacity="0.8"/>
+  <text x="600" y="305" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent 4</text>
+  
+  <!-- Connection Lines -->
+  <path d="M235 115 L350 175" stroke="#64748b" stroke-width="2"/>
+  <path d="M565 115 L450 175" stroke="#64748b" stroke-width="2"/>
+  <path d="M235 285 L350 225" stroke="#64748b" stroke-width="2"/>
+  <path d="M565 285 L450 225" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Data Flow Indicators -->
+  <circle cx="292" cy="145" r="5" fill="#f59e0b">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="508" cy="145" r="5" fill="#f59e0b">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="292" cy="255" r="5" fill="#f59e0b">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="508" cy="255" r="5" fill="#f59e0b">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

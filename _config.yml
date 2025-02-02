@@ -34,7 +34,6 @@ plugins:
 
 # Navigation
 header_pages:
-  - blog.markdown
   - games.markdown
 
 # Custom footer
