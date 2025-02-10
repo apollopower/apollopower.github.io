@@ -2,7 +2,7 @@
 layout: post
 title:  "Someone needs to build agent interfaces for web services"
 description: "Explore why standardized agent interfaces are crucial for the future of web services and how they can solve common challenges in building autonomous AI agents."
-date: 2025-02-02 00:00:00 -0800
+date: 2025-02-10 00:00:00 -0800
 categories: 
   - AI
   - Web Development
