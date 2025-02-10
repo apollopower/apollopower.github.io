@@ -26,11 +26,19 @@ excerpt: "As AI agents become more prevalent, web services need standardized int
 
 There are numerous efforts in the AI space right now to develop autonomous programs that can execute actions on behalf of users. The marketing buzzword we’ve collectively agreed on to communicate this class of software has been dubbed “agents”, and it’s been all the rage in both the startup ecosystem and large tech companies.
 
-The proposed benefits are obvious - agents can “work” and make decisions based on constraints they have been given much faster, cheaper, and at times more effectively than humans. Most importantly, agents don’t need to complete a task in its entirety, and can do 80% of the heavy-lifting before a human comes in, evaluates its performance, and does the remaining 20%. Users get all the benefit of autonomous actions kickstarting their important workflows minus the potential cost of bad decisions that cannot be undone. 
+The proposed benefits are obvious - agents can “work” and make decisions based on constraints they have been given much faster, cheaper, and at times more effectively than humans. Most importantly, agents don’t need to complete a task in its entirety, and can do 80% of the heavy-lifting before a human comes in, evaluates its performance, and does the remaining 20%. Users get all the benefit of autonomous actions kickstarting their important workflows minus the potential cost of bad decisions that cannot be undone.
+
+### Agents will drive real value
+
+As an example, at [Empwr.ai](https://www.empwr.ai/) we are working on solutions where agents can "kick off" valuable actions for you and your team, all with information extracted from unstructured conversations. Things like emails, work tickets, and connecting different parts of your organization can be done in a bare-boned manner that is not opiniated. The critical part is that agents can solve the "cold start" problem of users never initiating or following up on soft verbal agreements.
+
+![Empwr AI Example of agents initiating and suggesting actions to user](/res/agent-interfaces/empwr_example.png)
+
+### The long game?
 
 It’s clear that everyone and their dog is trying to integrate some “agentic layer” into their services and applications. It’s an inexpensive way to attract more money (hello, venture capitalists) while grabbing market attention, making a hedge that prepares their products for incoming waves of more advanced and cheaper AI tools.
 
-But in a potential blunder, many application-level developers are focused on their own agents, and not spending as much time on how external agents will interact with their own systems.
+But in a potential blunder, many application-level developers are only focused on their own agents, and not spending as much time on how external agents will interact with their own systems.
 
 Working on your own agent is “sexy” and much more tempting/exciting due to the following:
 - Your product evolves with current market trends, showing that you are a serious player in the applied AI landscape
