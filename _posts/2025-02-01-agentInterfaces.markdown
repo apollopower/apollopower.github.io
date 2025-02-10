@@ -91,8 +91,12 @@ While it seems counterintuitive to everything we have spoken about so far, there
 
 ## So who is going to build it?
 
-Probably not me! The last thing I need right now is another new project. :)
+Because this is something that will affect all web services trying to sell themselves as "agent-friendly", I think we all should be taking a crack at this, to some extent.
 
 This is an interesting problem space, and whoever can build an interface that can then be onboarded to several existing web services will have a large market to address. Businesses are much better served only having to connect an interface with their existing applications, ensure that agents can interact with it properly, and maintain it overtime.
 
 If the agent interface is something you are interested in working on, I highly encourage you to do so. The proposed system in this post is all theoretical, so only by getting your hands dirty can you figure out what works well or not. And I would certainly love to learn about what actually works!
+
+***
+
+*Special thanks to [Steve Won](https://www.linkedin.com/in/sjstevewon/) and [Jeremiah Seraphine](https://www.linkedin.com/in/jseraphine/) for reading and providing feedback on the initial draft of this post*

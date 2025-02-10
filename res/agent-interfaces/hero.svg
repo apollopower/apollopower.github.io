@@ -1,45 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
   <!-- Background -->
-  <rect width="800" height="400" fill="#f8fafc"/>
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f1f5f9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
   
-  <!-- Grid lines -->
-  <path d="M0 200 H800 M400 0 V400" stroke="#e2e8f0" stroke-width="1"/>
-  <path d="M100 50 H700 M100 350 H700" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg-gradient)"/>
   
   <!-- Central Interface Hub -->
-  <rect x="350" y="150" width="100" height="100" rx="10" fill="#3b82f6" opacity="0.9"/>
-  <text x="400" y="205" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Agent Interface</text>
+  <g transform="translate(350,150)">
+    <rect x="0" y="0" width="100" height="100" rx="12" fill="#3b82f6"/>
+    <text x="50" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Agent</text>
+    <text x="50" y="65" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Interface</text>
+  </g>
   
   <!-- Agent Nodes -->
-  <circle cx="200" cy="100" r="40" fill="#10b981" opacity="0.8"/>
-  <text x="200" y="105" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent 1</text>
+  <g transform="translate(200,100)">
+    <circle r="40" fill="#10b981"/>
+    <text x="0" y="5" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent</text>
+  </g>
   
-  <circle cx="600" cy="100" r="40" fill="#10b981" opacity="0.8"/>
-  <text x="600" y="105" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent 2</text>
+  <g transform="translate(600,100)">
+    <circle r="40" fill="#10b981"/>
+    <text x="0" y="5" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent</text>
+  </g>
   
-  <circle cx="200" cy="300" r="40" fill="#10b981" opacity="0.8"/>
-  <text x="200" y="305" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent 3</text>
+  <g transform="translate(200,300)">
+    <circle r="40" fill="#10b981"/>
+    <text x="0" y="5" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent</text>
+  </g>
   
-  <circle cx="600" cy="300" r="40" fill="#10b981" opacity="0.8"/>
-  <text x="600" y="305" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent 4</text>
+  <g transform="translate(600,300)">
+    <circle r="40" fill="#10b981"/>
+    <text x="0" y="5" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Agent</text>
+  </g>
   
   <!-- Connection Lines -->
-  <path d="M235 115 L350 175" stroke="#64748b" stroke-width="2"/>
-  <path d="M565 115 L450 175" stroke="#64748b" stroke-width="2"/>
-  <path d="M235 285 L350 225" stroke="#64748b" stroke-width="2"/>
-  <path d="M565 285 L450 225" stroke="#64748b" stroke-width="2"/>
+  <g stroke="#94a3b8" stroke-width="2">
+    <path d="M235 115 L350 175" />
+    <path d="M565 115 L450 175" />
+    <path d="M235 285 L350 225" />
+    <path d="M565 285 L450 225" />
+  </g>
   
   <!-- Data Flow Indicators -->
-  <circle cx="292" cy="145" r="5" fill="#f59e0b">
-    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="508" cy="145" r="5" fill="#f59e0b">
-    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="292" cy="255" r="5" fill="#f59e0b">
-    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="508" cy="255" r="5" fill="#f59e0b">
-    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
+  <g>
+    <circle cx="292" cy="145" r="4" fill="#fbbf24">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="508" cy="145" r="4" fill="#fbbf24">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="0.75s"/>
+    </circle>
+    <circle cx="292" cy="255" r="4" fill="#fbbf24">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+    <circle cx="508" cy="255" r="4" fill="#fbbf24">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="2.25s"/>
+    </circle>
+  </g>
 </svg>
