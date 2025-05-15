@@ -17,6 +17,10 @@ I currently work at a startup, [Empwr.ai](https://www.empwr.ai/), focused on tra
 
 On the fun side of life, I'm an amateur Ironman-distance triathlete. Finally, I have worked on small games from time to time, which you can find on this site.
 
+{% assign latest_plan = site.plans | sort: 'date' | last %}
+**[My current .plan]({{ latest_plan.url }})**
+
+
 ## Recent Posts
 {% for post in site.posts limit:3 %}
 - ### [{{ post.title }}]({{ post.url }})

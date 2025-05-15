@@ -51,6 +51,11 @@ defaults:
       image: /assets/images/default-post-image.jpg  # Add a default OG image
       comments: true
 
+collections:
+  plans:
+    output: true
+    permalink: /plans/:path/
+
 # SEO and Analytics (uncomment and add your IDs)
 # google_analytics: UA-XXXXXXXX-X
 # google_site_verification: [Your Google Search Console verification code]
