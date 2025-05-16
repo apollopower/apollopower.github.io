@@ -5,7 +5,7 @@ permalink: /plans/
 ---
 
 <ul>
-  {% for plan in site.plans reversed %}
+  {% for plan in site.plans %}
     <li>
       <a href="{{ plan.url }}">{{ plan.title }}</a>
     </li>
